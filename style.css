@@ -1,9 +1,12 @@
 /* step two, set up up global CSS variables */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
+    
 }
 
 :root{
@@ -27,7 +30,7 @@ body{
 }
 
 .font-size-40{
-    font-size: 40px;
+    font-size: 50px;
 }
 .font-size-34{
     font-size: 34px;
@@ -49,13 +52,28 @@ body{
 /* #global classes */
  /* step four, add header CSS */
 
-
-
+.mb-5{
+    background: rgb(17, 17, 17) no-repeat;
+    height: 10%;
+    
+    
+    
+    
+}
+.form-control{
+    margin-left: 25px;
+    
+}
+.text-control{
+    margin-left: 25px;
+    
+    
+}
  .top-buffer { margin-top: 30px;}
 
 p{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .skills{
@@ -67,12 +85,14 @@ p{
     position: relative; 
 }
 
-
+li{
+    font-size: 25px;
+}
 
  .welcome{
   text-align: center;
-  color: white;
-  font-size: 20px;
+  color: rgba(255, 255, 255, 0.904);
+  font-size: 30px;
  }
 
 #header{
@@ -151,18 +171,13 @@ p{
     background-position: 55% 20%;
 }
 
-
-
-
-
-
-@media screen and (min-width: 768px){
-    .toggle-button{
-        display: none;
-    }
-    #header{
-        z-index:0;
-    }
+#getBack{
+    position: relative;
+    z-index: -99;
 }
 
+.moveUp{
+    position: relative;
+    z-index: 9;
+}
 /* #site-main */

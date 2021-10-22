@@ -11,15 +11,25 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.js">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
 
 
+
     <!-- header area -->
     <!-- step three, code the header -->
     <header id="header">
-        <div class="row m-0">
+        <div class="row m-0" id="getBack">
             <div class="col-3 bgcolor-primary">
                 <nav class="primary-nav navbar-expand-md">
                     <div class="site-title text-center text-light py-5">
@@ -33,16 +43,16 @@
                         <a href="#Projects" class="nav-item nav-link text-white-50 font-size-20 active">projects</a>
                         <a href="#education" class="nav-item nav-link text-white-50 font-size-20 active">Education</a>
                         <a href="#Experience" class="nav-item nav-link text-white-50 font-size-20 active">Experience</a>
-                        <a href="#home" class="nav-item nav-link text-white-50 font-size-20 active">Contact</a>
+                        <a href="#Contact" class="nav-item nav-link text-white-50 font-size-20 active">Contact</a>
                     </div>
                 </nav>
             </div>
         </div>
-        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+        <!--<button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
         <div class="social">
             <span class="mr-3"><i class="fab fa-linkedin"></i></span>
             <span class="mr-3"><i class="fab fa-github"></i></span>
-        </div>
+        </div> -->
     </header>
 
     <main id="site-main">
@@ -54,9 +64,7 @@
                     <div class="banner-area">
                         <div class="author text-center">
                             <div class="author-img"></div>
-                            <h1 class="text-white font-sans-serif font-size-40 text-uppercase py-3">Gleb Brazhynski</h1>
-                            <p>Email: hleb200217@gmail.com</p>
-                            <p>Phone number: 513-560-6114</p>
+                            <h1 class="text-white font-size-40 text-uppercase py-3">Gleb Brazhynski</h1>
 
                             <p class="welcome">Welcome to my portfolio.
                             <p>
@@ -77,9 +85,9 @@
                     <div class="container-fluid">
                         <h2 id="mb-5">Skills</h2>
                         <div class="subheading mb-5" class="description">
-                            <p>
-
-                            </p>Languages & Software Tools
+                            <p class=L&ST>
+                                Languages & Software Tools
+                            </p>
                         </div>
                         <div class="row">
 
@@ -274,7 +282,7 @@
                             <div class="col-6">
                                 <img class="img fluid rounded-circle mx-auto"
                                     src="https://www.rocklin.ca.us/sites/main/files/imagecache/lightbox/main-images/tjmaxx-logo.png"
-                                    width="180" alt="tjmaxx">
+                                    width="170" alt="tjmaxx">
                             </div>
                         </div>
                         <div class="row">
@@ -298,74 +306,165 @@
                             <div class="col-6">
                                 <img class="img fluid rounded-circle mx-auto"
                                     src="https://images.squarespace-cdn.com/content/v1/5a8914c4a8b2b09ff5f2f78d/1601439481301-KXZC05GIKPC6HTLW0U8E/Blaze+Sign.gif"
-                                    width="250" alt="blazepizza">
+                                    width="190" alt="blazepizza">
                             </div>
                         </div>
 
                         <div class="row">
-                        <div class="col-6">
-                         <h3>La Rosas</h3>
-                            <p class="subheading mb-3">2017-2018</p>
+                            <div class="col-6">
+                                <h3>La Rosas</h3>
+                                <p class="subheading mb-3">2017-2018</p>
 
-                               
-                            <ul>
-                            <li>
-                                Established and maintained open, collaborative relationships with kitchen team to
-                                maximize efficiency.
-                                .
-                            </li>
-                            <li>
-                                Maintained consistent quality and high accuracy when preparing identical dishes every
-                                day.
-                            </li>
-                            <li>
-                                Operated cash register, collected payments and provided accurate change
-                            </li>
-                            </ul>
-                            </div> 
+
+                                <ul>
+                                    <li>
+                                        Established and maintained open, collaborative relationships with kitchen team
+                                        to
+                                        maximize efficiency.
+                                        .
+                                    </li>
+                                    <li>
+                                        Maintained consistent quality and high accuracy when preparing identical dishes
+                                        every
+                                        day.
+                                    </li>
+                                    <li>
+                                        Operated cash register, collected payments and provided accurate change
+                                    </li>
+                                </ul>
+                            </div>
 
                             <div class="col-6">
-                            <img class="img fluid rounded-circle mx-auto"
-                            src="https://cdn0.dontpayfull.com/media/logos/size/300x300/larosas.com.jpg?v=20190621125838274119"
-                            width="180" alt="larosas">
+                                <img class="img fluid rounded-circle mx-auto"
+                                    src="https://cdn0.dontpayfull.com/media/logos/size/300x300/larosas.com.jpg?v=20190621125838274119"
+                                    width="170" alt="larosas">
 
-                            </div> 
+                            </div>
 
 
-                        
+
 
                         </div>
-                            
-                          
 
-                         
-
+                    </div>
+                </section>
 
 
+                
+                <section class="mb-5" id="Contact">
 
+                    <!--Section heading-->
+                    <h2 class="h1-responsive font-weight-bold text-center text-white ">Contact me!</h2>
+                    <!--Section description-->
+                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate
+                        to contact me directly. I will come back to you within
+                        a matter of hours.</p>
 
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-9 mb-md-0 mb-5" id="contactForm">
+                            <form id="contact-form " name="contact-form" action="mail.php" method="POST">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0 text-white">
+                                            <input type="text" id="name" name="name" class="form-control moveUp ">
+                                            <label for="name" class="text-control">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0 text-white">
+                                            <input type="text" id="email" name="email" class="form-control moveUp">
+                                            <label for="email" class="text-control">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0 text-white">
+                                            <input type="text" id="subject" name="subject" class="form-control moveUp">
+                                            <label for="subject" class="text-control">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form text-white moveUp">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message" class="text-control">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
+
+                            </form>
+
+                            <div class="text-center text-md-left text-white pl-3">
+                                <a class="btn btn-primary moveUp"
+                                    onclick="document.getElementById('contact-form').submit();" href="mailto:hleb200217@gmail.com">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
                         
+                        <div class="col-md-3 text-center">
+                              <ul class=" list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x "></i>
+                                <p>Cincinnati, OH</p>
+                            </li>
 
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <p>+1 513-560-6114</p>
+                            </li>
 
-                        
-
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <p>hleb200217@gmail.com</p>
+                            </li>
+                            </ul>
+                        </div>
+                       
 
                     </div>
 
+                </section>
+               
 
-                    <!-- <div class="row">
 
-                    
-                        
-                                                <img class="img fluid rounded-circle mx-auto"
-                                                    src="https://cdn0.dontpayfull.com/media/logos/size/300x300/larosas.com.jpg?v=20190621125838274119"
-                                                    width="180" alt="larosas">
-                                            
-                                                                   
-                    </div> -->
 
-                    <!-- keep content above div -->
+
+
+
+
+
+
+
+
+
             </div>
+
+
+
+
+
         </div>
 
 
@@ -375,7 +474,6 @@
 
 
 
-        </section>
 
 
     </main>
